@@ -1,0 +1,72 @@
+/* Estilo básico do corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9; /* Cor de fundo clara */
+}
+
+/* Estilo do cabeçalho */
+header {
+    background-color: #4CAF50; /* Fundo verde */
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+/* Títulos principais */
+h1 {
+    margin: 0;
+}
+
+/* Títulos de seção */
+h2 {
+    color: #333;
+}
+
+/* Estilo da tabela de produtos */
+.products table {
+    width: 100%; /* Ocupa toda a largura disponível */
+    border-collapse: collapse; /* Remove bordas duplas */
+    margin: 20px 0;
+}
+
+.products table, th, td {
+    border: 1px solid #ddd; /* Bordas leves */
+}
+
+th, td {
+    padding: 8px; /* Espaçamento interno */
+    text-align: center; /* Texto centralizado */
+}
+
+/* Estilo da seção de adição de produtos */
+.add-product {
+    margin: 20px;
+    padding: 10px;
+    background-color: white; /* Fundo branco */
+    border-radius: 8px; /* Bordas arredondadas */
+}
+
+/* Estilo dos campos de entrada */
+.add-product input {
+    width: 100%; /* Largura total */
+    padding: 8px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px; /* Bordas arredondadas */
+}
+
+/* Estilo do botão */
+.add-product button {
+    background-color: #4CAF50; /* Fundo verde */
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer; /* Aparece como botão clicável */
+}
+
+.add-product button:hover {
+    background-color: #45a049; /* Tom mais escuro no hover */
+}
